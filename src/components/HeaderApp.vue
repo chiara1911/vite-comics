@@ -5,7 +5,7 @@
             <img src="../assets/images/dc-logo.png" alt="">        
         
             <ul class="d-flex flex-row justify-content-between align-items-center">
-                <li v-for ="navLink in navLinks" class="p-1 text-uppercase">{{ navLink}}</li>
+                <li v-for ="navLink in navLinks" class="p-1 text-uppercase"><a href="#">{{ navLink}}</a></li>
             </ul>
        
     </div>
