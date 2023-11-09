@@ -2,7 +2,8 @@
     <footer>
         
         <div class="container">
-            <div class="row">
+            <div class="row ">
+                <div class="d-flex justify-content-between ">
                 <div class="col-5">
                     <div class="row">
                         <div class="col-4">
@@ -31,9 +32,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
-                    <img src="/src/assets/images/dc-logo-bg.png" alt="">
+                <div class="col-7 d-flex justify-content-end">
+                    <img src="/src/assets/images/dc-logo-bg.png" alt="dc-logo-bg">
                 </div>
+            </div>
             </div>  
         </div>
   
