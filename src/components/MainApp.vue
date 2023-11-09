@@ -1,20 +1,19 @@
 <template>
-    <div class="container">
+    
+   
 <div id="top-main" class="bg-dark">
+    <div class="container">
     <h2 class="text-light py-5"> -- > Content Goes here  -- </h2>
 </div>
 <div id="bottom-main">
     <ul class="d-flex flex-row justify-content-between ">
-                <li v-for ="(el,index) in items" class="p-3 ">
-                    <img :src="el.img" alt="">
+                <li v-for ="el in items" class="p-3 text-light text-uppercase">
+                    <a href=""><img :src="el.img" :alt="el.text" class="px-2 w-25 h-75 "></a>
                     <span>{{el.text}}</span></li>
     </ul>
 </div>
-    
-    <div class="p-5">
-        
-    </div>
 </div>
+
 </template>
 
 <script>
@@ -39,6 +38,10 @@
                         img: "/src/assets/images/buy-comics-shop-locator.png",
                         text: "comic shop locator"
                     },
+                    {
+                        img: "/src/assets/images/buy-dc-power-visa.svg",
+                        text: "dc power visa"
+                    }
 
                 ]
             }
@@ -54,7 +57,7 @@
     background-color: black;
    }
     #bottom-main{
-    background-color: blue;
+    background-color: rgb(0, 115, 255);
    }
 
 </style>

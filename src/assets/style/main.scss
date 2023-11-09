@@ -5,4 +5,34 @@
 
 @import 'bootstrap/scss/bootstrap';
 
+:root {
+    --light: #ffffff;
+    --light-blue: #0282f9;
+    --dark: #1c1c1c;
+    --light-grey: #797979;
+}
 
+h2{
+    font-family: $title-font;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+  
+    
+    footer{
+        display: block;
+        background-image: url(/src/assets/images/footer-bg.jpg);
+        object-fit: cover;
+       opacity: inherit;
+       height: 400px;
+
+       li{
+        font-size: 0.7rem;
+       color: aquamarine;
+       };
+    }
+   
+}
