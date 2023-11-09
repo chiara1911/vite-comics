@@ -1,7 +1,8 @@
 <template>
+
   <div class="container p-3">
     <div class="row">
-      <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-between position-relative overflow-hidden ">
         <div class="col-5">
           <div class="row">
             <div class="col-4">
@@ -31,9 +32,12 @@
             </div>
           </div>
         </div>
-        <div class="col-7 d-flex justify-content-end position-relative ">
-          <img src="/src/assets/images/dc-logo-bg.png" alt="dc-logo-bg" class="position-absolute"/>
-        </div>
+        
+          <div class="position-absolute " id="footer-img">
+            <img src="/src/assets/images/dc-logo-bg.png" alt="dc-logo-bg" />
+          </div>
+          
+        
       </div>
     </div>
   </div>

@@ -32,6 +32,15 @@ body{
     width: 100%;
     height: calc(100% - 520px);
     font-family: $base-font;
+    #bottom-main{
+        a img{
+            width: 100px;
+            height: 100px;
+        }
+ span{
+    font-size: 0.8rem;
+ }
+    }
   }
   
     
@@ -43,7 +52,10 @@ body{
        height: 400px;
        font-family: $base-font;
     
-
+#footer-img{
+    margin-left: 700px;
+    margin-top: -62px;
+}
       a {
         font-size: 0.6rem;
         color: grey;
@@ -54,6 +66,9 @@ body{
         width: 100%;
         object-fit: cover;   
               
+       }
+       h4{
+        font-size: 0.8rem;
        }
        #bottomFooter{
         background-color: var(--light-grey);

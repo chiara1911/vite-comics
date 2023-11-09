@@ -1,10 +1,10 @@
 <template>
     <div id="bottom-main" >
     <div class="container">
-    <ul class="d-flex flex-row justify-content-between m-0">
-                <li v-for ="el in items" class="p-3 text-light text-uppercase">
-                    <a href="#"><img :src="el.img" :alt="el.text" class="px-2 w-25 h-50 "></a>
-                    <span>{{el.text}}</span></li>
+    <ul class="d-flex flex-row justify-content-between m-0 p-2">
+                <li v-for ="el in items" class="p-1 text-light text-uppercase d-flex flex-row">
+                    <a href="#"><img :src="el.img" :alt="el.text" class=""></a>
+                    <span class="p-2 d-flex flex-wrap align-content-center ">{{el.text}}</span></li>
     </ul>
 </div>
 </div>

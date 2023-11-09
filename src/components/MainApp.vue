@@ -1,20 +1,19 @@
 <template>
   <main>
-    <div id="top-main" class="bg-dark">
-      <div class="container">
-        <h2 class="text-light py-5">-- > Content Goes here --</h2>
-      </div>
+    <topMain />
       <bottomMain />
-    </div>
+   
   </main>
 </template>
 
 <script>
 import bottomMain from "./main/bottomMain.vue";
+import topMain from "./main/topMain.vue";
 export default {
   name: "MainApp",
   components: {
     bottomMain,
+    topMain,
   },
 };
 </script>
