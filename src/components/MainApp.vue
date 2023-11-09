@@ -8,6 +8,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+
+background-color: black;
 
 </style>

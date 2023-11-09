@@ -1,9 +1,15 @@
 <template>
-   <h2>header</h2>
-
-   <ul class="d-flex flex-row flex-nowrap">
-    <li v-for ="navLink in navLinks">{{ navLink}}</li>
+  
+   <div class="d-flex justify-content-between">
+    <div>
+        <img src="../assets/images/dc-logo.png" alt="">
+    </div>
+<div>
+   <ul class="d-flex flex-row justify-content-between ">
+    <li v-for ="navLink in navLinks" class="p-3 ">{{ navLink}}</li>
    </ul>
+</div>
+</div>
 </template>
 
 <script>
@@ -31,6 +37,10 @@
     
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
+
+    li{
+        list-style: none;
+    }
 
 </style>
