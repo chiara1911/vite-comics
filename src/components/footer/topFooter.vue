@@ -3,7 +3,7 @@
   <div class="container p-3">
     <div class="row">
       <div class="d-flex justify-content-between position-relative overflow-hidden ">
-        <div class="col-5">
+        <div class="col-6">
           <div class="row">
             <div class="col-4">
               <ul>
@@ -58,7 +58,7 @@ export default {
         "Video",
         "News",
       ],
-      shop: ["shop DC", "Shop DC Collectibles"],
+      shop: ["Shop DC", "Shop DC Collectibles"],
 
       dc: [
         "Terms Of Use",

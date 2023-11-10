@@ -9,11 +9,13 @@
 <script>
 import bottomMain from "./main/bottomMain.vue";
 import topMain from "./main/topMain.vue";
+
 export default {
   name: "MainApp",
   components: {
     bottomMain,
     topMain,
+    
   },
 };
 </script>
