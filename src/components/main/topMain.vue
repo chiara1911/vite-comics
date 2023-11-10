@@ -1,6 +1,6 @@
 <template>
-    <div id="top-main" class="bg-dark">       
-        <ul class="d-flex flex-row">
+    <div id="top-main" class="bg-dark ">       
+        <ul class="d-flex flex-row flex-wrap">
           <li v-for="comic in comics" >
             <cardComics :img="comic.thumb" :title="comic.series"/>
           </li>
