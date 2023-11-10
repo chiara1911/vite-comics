@@ -8,7 +8,7 @@
     <div class="d-flex flex-row ">
         <span class="text-primary text-uppercase">follow us</span>
         <ul class="d-flex flex-row">
-            <li class="border" v-for="el in icons"><img :src="el.image" :alt="el.text"></li>
+            <li class="p-1" v-for="el in icons"><img :src="el.image" :alt="el.text"></li>
         </ul>
     </div>
 </div>
