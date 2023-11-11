@@ -1,11 +1,9 @@
 <template>
   <div id="top-main" class="bg-dark pt-2">
-    <div id="hero-img">
-      hello
-    </div>
-    <div class="container">
+    <div id="hero-img"></div>
+    <div class="container py-3">
       <div class="row">
-        <div class="col-lg-2 col-md-3" v-for="comic in comics">
+        <div class="col-lg-2 col-md-3 col-sm-4" v-for="comic in comics">
           <cardComics :img="comic.thumb" :title="comic.series" />
         </div>
       </div>
@@ -31,19 +29,20 @@ export default {
 
 <style lang="scss" scoped>
 #top-main {
-  height: 400px;
+  background-color: black;
+ 
   width: 100%;
-}
-
-img{
-  object-fit: contain;
-  width: 100%
-}
-#hero-img{
+  img {
+    object-fit: contain;
+    width: 100%;
+  
+  }
+  #hero-img {
     background-image: url(../../assets/images/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: 400px;
+  }
 }
 </style>

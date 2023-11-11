@@ -1,7 +1,7 @@
 <template>
    
     <div class="card-wrapper">
-        <div class="img-jesus overflow-hidden">
+        <div class="img-card overflow-hidden">
             <img :src="img"  :alt="title">
         </div>
        
@@ -30,9 +30,10 @@ h5{
     font-size: 0.6rem;
     color: white;
 }
-.img-jesus{
+.img-card{
     width: 150px;
     height: 150px;
+    cursor: pointer;
 }
 img{
     width: 100%;

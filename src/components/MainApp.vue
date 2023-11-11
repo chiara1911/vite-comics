@@ -1,8 +1,7 @@
 <template>
   <main>
     <topMain />
-      <bottomMain />
-   
+    <bottomMain />
   </main>
 </template>
 
@@ -15,16 +14,14 @@ export default {
   components: {
     bottomMain,
     topMain,
-    
   },
 };
 </script>
 
 <style lang="scss">
-#top-main {
-  background-color: black;
+main {
+  width: 100%;
+
 }
-#bottom-main {
-  background-color: rgb(0, 115, 255);
-}
+
 </style>
